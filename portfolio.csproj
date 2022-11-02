@@ -9,4 +9,10 @@
   <ItemGroup>
     <Content Remove="Views\Home\Contact.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Styles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Styles\" />
+  </ItemGroup>
 </Project>

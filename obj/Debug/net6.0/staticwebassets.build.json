@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pM0VDtMfIfhrUhCsu/porV/iyieTFcJrq6tYiMhRCiA=",
+  "Hash": "TiWsr5TllX4dGTPrEXsSWAL/Zao4S048jB2vtmEwQW4=",
   "Source": "portfolio",
   "BasePath": "_content/portfolio",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/grantsanders/Projects/portfolio/obj/Debug/net6.0/scopedcss/projectbundle/portfolio.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/grantsanders/Projects/portfolio/wwwroot/css/indexStyle.css",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/grantsanders/Projects/portfolio/wwwroot/",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "css/indexStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/indexStyle.css"
     },
     {
       "Identity": "/Users/grantsanders/Projects/portfolio/wwwroot/css/site.css",

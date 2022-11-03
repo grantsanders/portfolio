@@ -8,11 +8,15 @@
 
   <ItemGroup>
     <Content Remove="Views\Home\Contact.cshtml" />
+    <Content Remove="wwwroot\css\style.css" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Styles\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Styles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\css\style.css" />
   </ItemGroup>
 </Project>

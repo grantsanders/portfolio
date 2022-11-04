@@ -1,0 +1,123 @@
+html {
+	overflow: hidden;
+}
+
+body {
+	background: linear-gradient(-45deg, #300208, #1f001d, #170202, #000000); 
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	animation: gradient 12s ease infinite;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+
+header {
+	font-family: Arial, Helvetica, sans-serif
+}
+
+
+h1 {
+	color: #c9c9c9;
+}
+
+h4 {
+	font-size: 90px;
+	position: absolute;
+	bottom: 52vh;
+	left: 14vw;
+	color: #c9c9c9;
+}
+
+
+
+h5.jobtitle {
+	font-size: 64px;
+	position: absolute;
+	bottom: 45vh;
+	left: 18vw;
+	color: #c9c9c9;
+}
+
+h5.location {
+	font-size: 35px;
+	position: absolute;
+	bottom: 68vh;
+	right: 13vw;
+	text-align: center;
+	color: #c9c9c9
+}
+
+.links {
+	font-size: 30px;
+	position: absolute;
+	bottom: 25vh;
+	right: 16vw;
+	text-align:center;
+	margin-block:10px
+}
+
+
+	@keyframes gradient {
+		0% {
+			background-position: 0% 50%;
+		}
+
+		50% {
+			background-position: 100% 50%;
+		}
+
+		100% {
+			background-position: 0% 50%;
+		}
+	}
+
+	.frame {
+
+	position: fixed;
+	z-index: 10;
+	left: var(--pad);
+	right: var(--pad);
+	top: var(--pad);
+	bottom: var(--pad);
+	mix-blend-mode: difference;
+	pointer-events: none
+}
+
+.nav {
+	border-bottom-width:95vw;
+}
+
+.frame_line {
+	position: absolute;
+	background-color: #fff;
+	opacity: .5
+}
+
+.frame_line-left {
+	left: 0;
+	top: 0;
+	width: 1px;
+	height: 100%
+}
+
+.frame_line-right {
+	right: 0;
+	top: 0;
+	width: 1px;
+	height: 100%
+}
+
+.frame_line-top {
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 1px
+}
+
+.frame_line-bottom {
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 1px
+}

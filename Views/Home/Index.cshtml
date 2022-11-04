@@ -3,21 +3,27 @@
 }
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="~/css/style.css" />
 </head>
-<body >
-<div class="d-flex flex-column justify-content-center w-100 h-100">
 
+
+<body>
+<div class="d-flex flex-column justify-content-center w-100 h-100">
     <div class="d-flex flex-column justify-content-center align-items-center">
 
-        <div class="text-center">
             <h4><strong>grant sanders</strong></h4>
-            <h5>junior developer</h5>
-            <h5>working in <br />jacksonville, fl</h5>
+            <h5 class="jobtitle">fullstack developer</h5>
+            <h5 class="location">currently working in:<br />jacksonville, fl</h5>
 
-            <a class="nav-link text-secondary" asp-area="" asp-controller="Home" asp-action="About">about me</a>
-            <a class="nav-link text-secondary" asp-area="" asp-controller="Home" asp-action="Portfolio">my projects</a>
+        <div class="links">
+                <a class="nav-link text-secondary" asp-area="" asp-controller="Home" asp-action="About">about me</a>
+                <a class="nav-link text-secondary" asp-area="" asp-controller="Home" asp-action="Portfolio">my projects</a>
         </div>
 
+        </div>
+    </div>
 
 </body>

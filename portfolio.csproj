@@ -9,12 +9,14 @@
   <ItemGroup>
     <Content Remove="Views\Home\Contact.cshtml" />
     <Content Remove="wwwroot\css\style.css" />
+    <Content Remove="wwwroot\images\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Styles\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Styles\" />
+    <Folder Include="wwwroot\images\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\css\style.css" />

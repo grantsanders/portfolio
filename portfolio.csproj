@@ -10,15 +10,24 @@
     <Content Remove="Views\Home\Contact.cshtml" />
     <Content Remove="wwwroot\css\style.css" />
     <Content Remove="wwwroot\images\" />
+    <Content Remove="wwwroot\simDB\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Styles\" />
+    <None Remove="simDB\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Styles\" />
     <Folder Include="wwwroot\images\" />
+    <Folder Include="simDB\" />
+    <Folder Include="wwwroot\simDB\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\css\style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="wwwroot\simDB\db.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 </Project>

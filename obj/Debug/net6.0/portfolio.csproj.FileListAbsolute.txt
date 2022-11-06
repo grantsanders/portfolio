@@ -24,3 +24,4 @@
 /Users/grantsanders/Projects/portfolio/obj/Debug/net6.0/portfolio.pdb
 /Users/grantsanders/Projects/portfolio/obj/Debug/net6.0/portfolio.genruntimeconfig.cache
 /Users/grantsanders/Projects/portfolio/obj/Debug/net6.0/ref/portfolio.dll
+/Users/grantsanders/Projects/portfolio/bin/Debug/net6.0/wwwroot/simDB/db.json

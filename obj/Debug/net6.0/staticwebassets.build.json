@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6thBqcTDVninqvP3m0LskT0MH52Ft6bE2nCM+JRQgxA=",
+  "Hash": "eSOmDdB33fQ+FoxrcH1gMzCOyMk8xf7+8pv0W0jfldc=",
   "Source": "portfolio",
   "BasePath": "_content/portfolio",
   "Mode": "Default",
@@ -1154,6 +1154,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/grantsanders/Projects/portfolio/wwwroot/simDB/db.json",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/grantsanders/Projects/portfolio/wwwroot/",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "simDB/db.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/simDB/db.json"
     }
   ]
 }

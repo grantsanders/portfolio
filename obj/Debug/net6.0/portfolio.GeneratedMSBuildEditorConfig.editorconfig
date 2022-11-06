@@ -15,20 +15,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/grantsanders/Projects/portfolio
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/grantsanders/Projects/portfolio/Views/Home/About.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BYm91dC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [/Users/grantsanders/Projects/portfolio/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/grantsanders/Projects/portfolio/Views/Home/Portfolio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qb3J0Zm9saW8uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/grantsanders/Projects/portfolio/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/grantsanders/Projects/portfolio/Views/Home/Resume.cshtml]

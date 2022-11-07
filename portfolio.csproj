@@ -17,6 +17,7 @@
     <None Remove="simDB\" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Services\" />
     <Folder Include="Styles\" />
     <Folder Include="wwwroot\images\" />
     <Folder Include="simDB\" />

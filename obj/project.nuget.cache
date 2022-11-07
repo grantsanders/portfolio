@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4okqGWgVJ1nnu2EOL69xh03YZeQ7dl+YksH6g24Pj93NWaTrg+IA3GGE5mrr7n8eOshM0g6hmtkC9ml2JpIimw==",
+  "dgSpecHash": "gwUPr9muNg21VFL9MmPrFAYjoFnX6Uc7laD+/iXk4HAtA501L8AOP7tWSu3+f3+Z9j/rvG3RF4dq2k/uFzMDSw==",
   "success": true,
-  "projectFilePath": "/Users/grantsanders/Projects/portfolio/portfolio.csproj",
+  "projectFilePath": "C:\\Users\\grant\\Source\\Repos\\portfolio\\portfolio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

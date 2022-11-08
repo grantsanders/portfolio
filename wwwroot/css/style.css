@@ -2,10 +2,6 @@ html {
 	overflow: hidden;
 }
 
-.namecolor {
-	filter: brightness(0) saturate(100%) invert(97%) sepia(1%) saturate(14%) hue-rotate(314deg) brightness(86%) contrast(86%);
-}
-
 body {
 	background: linear-gradient(-45deg, #300208, #1f001d, #170202, #000000); 
 	background-size: 400% 400%;
@@ -16,10 +12,17 @@ body {
 
 
 .wrapper {
+	height: calc(100vh - 100px);
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+}
 
+.carousel {
+	height: calc(100vh - 100px);
+	display:flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .footer {

@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="simDB\**" />
+    <Compile Remove="Styles\**" />
+    <Content Remove="simDB\**" />
+    <Content Remove="Styles\**" />
+    <EmbeddedResource Remove="simDB\**" />
+    <EmbeddedResource Remove="Styles\**" />
+    <None Remove="simDB\**" />
+    <None Remove="Styles\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="Views\Home\Contact.cshtml" />
     <Content Remove="wwwroot\css\style.css" />
     <Content Remove="wwwroot\images\" />
@@ -17,14 +28,19 @@
     <None Remove="simDB\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Services\" />
-    <Folder Include="Styles\" />
     <Folder Include="wwwroot\images\" />
-    <Folder Include="simDB\" />
     <Folder Include="wwwroot\simDB\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\css\style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
   </ItemGroup>
   <ItemGroup>
     <Content Update="wwwroot\simDB\db.json">

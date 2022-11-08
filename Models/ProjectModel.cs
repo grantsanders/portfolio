@@ -10,9 +10,9 @@ public class ProjectModel
     
         public String Id { get; set; }
 
-        public String ProjectName { get; set; }
+        public String Name { get; set; }
 
-        public String ProjectDescription { get; set; }
+        public String Description { get; set; }
 
         [JsonPropertyName ("img")]
         public String Image { get; set; }

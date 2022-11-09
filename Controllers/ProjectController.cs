@@ -21,8 +21,6 @@ namespace portfolio.Controllers
         {
             IEnumerable<ProjectModel> projects = (IEnumerable<ProjectModel>)_projectService.GetProjects();
 
-
-
             return View(projects);
         }
     }

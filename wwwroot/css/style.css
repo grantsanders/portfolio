@@ -2,6 +2,9 @@ html {
 	overflow: hidden;
 }
 
+:root {
+	--color: #c9c9c9;
+}
 body {
 	background: linear-gradient(-45deg, #300208, #1f001d, #170202, #000000); 
 	background-size: 400% 400%;
@@ -27,7 +30,7 @@ body {
 
 .footer {
 	position: absolute;
-	bottom: 0;
+	bottom: 5px;
 	left: 5px;
 	width: 100%;
 	white-space: nowrap;
@@ -41,12 +44,13 @@ header {
 
 
 h1 {
-	color: #c9c9c9;
+	align-self: center;
+	color: var(--color);
 }
 
 h4 {
 	font-size: clamp(30px, 90px, 90px);
-	color: #c9c9c9; 
+	color: var(--color);
 }
 
 
@@ -57,20 +61,21 @@ h4.name {
 h5.jobtitle {
 	font-size: 64px;
 	transform: translate(1.5rem, -1.5rem);
-	color: #c9c9c9;
+	color: var(--color);
 }
 
 h5.location {
-	transform:translateY(-15px);
+	transform: translateY(-15px);
 	font-size: 35px;
-	color: #c9c9c9;
-	text-align:center;
+	color: var(--color);
+	text-align: center;
 }
 
 .links {
 	justify-self: flex-end;
 	font-size: clamp(10px, 20px, 30px);
 	text-align: center;
+	
 }
 
 
@@ -90,48 +95,24 @@ h5.location {
 		}
 	}
 
-.frame {
 
-	position: fixed;
-	z-index: 10;
-	left: var(--pad);
-	right: var(--pad);
-	top: var(--pad);
-	bottom: var(--pad);
-	mix-blend-mode: difference;
-	pointer-events: none
-}
-
-.frame_line {
-	position: absolute;
-	background-color: #fff;
-	opacity: .5
-}
-
-.frame_line-left {
-	left: 0;
-	top: 0;
-	width: 1px;
-	height: 100%
-}
-
-.frame_line-right {
-	right: 0;
-	top: 0;
-	width: 1px;
-	height: 100%
-}
-
-.frame_line-top {
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 1px
-}
-
-.frame_line-bottom {
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 1px
+@media screen and (max-width: 550px) {
+	.wrapper {
+	justify-content: center;
+	}
+	h4.name {
+		font-size: 40px;
+		align-self: center;
+		transform: translateY(-.5rem); 
+	}
+	h5.jobtitle {
+		font-size: 35px;
+		align-self: center;
+		transform:translate()
+	
+	}
+	h5.location {
+		font-size: 30px;
+		align-self: center;
+	}
 }

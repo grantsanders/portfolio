@@ -10,16 +10,22 @@
     <link rel="stylesheet" href="~/css/style.css" />
 </head>
 
-<h1>listProjects</h1>
+    
+<body>
+    <h1>my recent work:</h1>
 
-<div class="carousel">
+    <div class="carousel">
+
+
 @foreach (var item in Model) {
-    <div class="card" style="width: 25rem;">
+            <div class="card text-white bg-dark mb-3" style="width: 25rem;">
         <img class="card-img-top" src="@Html.DisplayFor(modelItem => item.Image)" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
             <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
-                <a href="@Html.DisplayFor(modelItem => item.Url)" class="btn btn-primary">Source on GitHub</a>
+                <a href="@Html.DisplayFor(modelItem => item.Url)" class="btn btn-outline-secondary text-white">Source on GitHub</a>
         </div>
     </div>
 } </div>
+
+</body>

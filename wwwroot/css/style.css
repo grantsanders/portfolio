@@ -95,6 +95,29 @@ h5.location {
 		}
 	}
 
+@media screen and (max-width: 770px) {
+	.wrapper {
+		justify-content: center;
+	}
+
+	h4.name {
+		font-size: 50px;
+		align-self: center;
+		transform: translate(-.6rem, -.2rem);
+	}
+
+	h5.jobtitle {
+		font-size: 40px;
+		align-self: center;
+		transform: translate()
+	}
+
+	h5.location {
+		font-size: 35px;
+		align-self: center;
+	}
+}
+
 
 @media screen and (max-width: 550px) {
 	.wrapper {
@@ -113,6 +136,29 @@ h5.location {
 	}
 	h5.location {
 		font-size: 30px;
+		align-self: center;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.wrapper {
+		justify-content: center;
+	}
+
+	h4.name {
+		font-size: 35px;
+		align-self: center;
+		transform: translate(-.5rem, -.6rem);
+	}
+
+	h5.jobtitle {
+		font-size: 30px;
+		align-self: center;
+		transform: translate(0.7rem, -1.5rem);
+	}
+
+	h5.location {
+		font-size: 25px;
 		align-self: center;
 	}
 }

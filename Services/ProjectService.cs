@@ -34,15 +34,6 @@ namespace portfolio.Services
             Console.WriteLine(projects);
             return projects;
 
-
-            //using (var jsonFileReader = File.OpenText(JsonFileName))
-            //{
-            //    return JsonSerializer.Deserialize<ProjectModel[]>(jsonFileReader.ReadToEnd(),
-            //        new JsonSerializerOptions
-            //        {
-            //            PropertyNameCaseInsensitive = true
-            //        });
-            //}
         }
     }
 }

@@ -19,7 +19,8 @@ namespace portfolio.Controllers
 
         public IActionResult listProjects()
         {
-            IEnumerable<ProjectModel> projects = (IEnumerable<ProjectModel>)_projectService.GetProjects();
+
+            IEnumerable<ProjectModel> projects = _projectService.GetProjects();
 
             return View(projects);
         }

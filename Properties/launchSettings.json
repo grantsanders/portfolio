@@ -3,10 +3,10 @@
     "portfolio": {
       "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "https://localhost:62669;http://localhost:62670",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "https://localhost:62669;http://localhost:62670"
+      }
     }
   }
 }

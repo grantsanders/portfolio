@@ -12,12 +12,11 @@ public class ProjectModel
 
         public String Name { get; set; }
 
-        public String Description { get; set; }
+        public String Url { get; set; }
 
-        [JsonPropertyName ("img")]
         public String Image { get; set; }
 
-        public String Url { get; set; }
+        public String Description { get; set; }
 
     public override string ToString() => JsonSerializer.Serialize<ProjectModel>(this);
 

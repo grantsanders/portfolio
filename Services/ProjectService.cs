@@ -1,6 +1,4 @@
-﻿using Microsoft.CodeAnalysis.CSharp.Syntax;
-using System.Net.Http.Headers;
-using portfolio.Models;
+﻿using portfolio.Models;
 using System.Text.Json;
 
 namespace portfolio.Services
@@ -22,14 +20,29 @@ namespace portfolio.Services
 
         public IEnumerable<ProjectModel> GetProjects()
         {
-            using (var jsonFileReader = File.OpenText(JsonFileName))
-            {
-                return JsonSerializer.Deserialize<ProjectModel[]>(jsonFileReader.ReadToEnd(),
-                    new JsonSerializerOptions
-                    {
-                        PropertyNameCaseInsensitive = true
-                    });
-            }
+
+            var client = new HttpClient() { BaseAddress = new Uri("https://granthum-api.azurewebsites.net") };
+
+            var json = client.GetAsync("/api/projects").Result.Content.ReadAsStringAsync().Result;
+
+            IEnumerable<ProjectModel> projects = JsonSerializer.Deserialize<IEnumerable<ProjectModel>>(json,
+                new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                });
+
+            Console.WriteLine(projects);
+            return projects;
+
+
+            //using (var jsonFileReader = File.OpenText(JsonFileName))
+            //{
+            //    return JsonSerializer.Deserialize<ProjectModel[]>(jsonFileReader.ReadToEnd(),
+            //        new JsonSerializerOptions
+            //        {
+            //            PropertyNameCaseInsensitive = true
+            //        });
+            //}
         }
     }
 }

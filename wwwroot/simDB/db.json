@@ -16,7 +16,7 @@
   {
     "id": "2",
     "name": "future logging API",
-    "url": "https://github.com/grantsanders/qbo",
+    "url": "https://github.com/grantsanders/granthum-api",
     "img": "https://www.dictionary.com/e/wp-content/uploads/2020/10/f29.png",
     "description": "passes logs from invoicing app to this website at this link"
   }

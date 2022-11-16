@@ -1,5 +1,5 @@
 html {
-	overflow: hidden;
+
 }
 
 :root {
@@ -11,7 +11,9 @@ body {
 	-webkit-animation: gradient 15s ease infinite;
 	animation: gradient 12s ease infinite;
 	font-family: 'Noto Sans JP', sans-serif;
+	overflow:hidden;
 }
+
 
 
 .wrapper {
@@ -25,7 +27,8 @@ body {
 	height: calc(100vh - 100px);
 	display:flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 }
 
 .footer {
@@ -137,6 +140,9 @@ h5.location {
 	h5.location {
 		font-size: 30px;
 		align-self: center;
+	}
+	.projects {
+		overflow: auto;
 	}
 }
 

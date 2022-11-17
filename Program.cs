@@ -8,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddSingleton<ProjectService>();
+builder.Services.AddSingleton<InvoiceRecordService>();
 
 builder.Services.AddControllersWithViews();
 

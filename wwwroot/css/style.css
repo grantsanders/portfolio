@@ -40,6 +40,13 @@ body {
 	line-height: 60px;
 }
 
+table, thead, tr, th, tbody, td {
+	color: var(--color);
+}
+
+h2 {
+	color: var(--color);
+}
 
 header {
 	font-family: Arial, Helvetica, sans-serif

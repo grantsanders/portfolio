@@ -1,0 +1,56 @@
+﻿@model IEnumerable<portfolio.Models.InvoiceRecordModel>
+
+@{
+    ViewData["Title"] = "invoiceLogs";
+}
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+
+<h4>invoice logs</h4>
+<h2>activity logs from the java program - data is semi-obscured</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImportedSuccessfully)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumberOfInvoices)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Created)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImportedSuccessfully)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NumberOfInvoices)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Created)
+            </td>
+
+        </tr>
+}
+    </tbody>
+</table>

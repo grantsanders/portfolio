@@ -1,4 +1,4 @@
-﻿    @model IEnumerable<portfolio.Models.ProjectModel>
+﻿        @model IEnumerable<portfolio.Models.ProjectModel>
 
 @{
     ViewData["Title"] = "listProjects";
@@ -24,6 +24,11 @@
             <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
             <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
                 <a href="@Html.DisplayFor(modelItem => item.Url)" class="btn btn-outline-secondary text-white">Source on GitHub</a>
+                @switch (Int32.Parse(item.Id)) {
+                        case 0:
+                            <a asp-area="" asp-controller="Project" asp-action="invoiceLogs" class="btn btn-outline-secondary text-white">Logs</a>; break;
+                        default: break; 
+                }   
         </div>
     </div>
 } </div>

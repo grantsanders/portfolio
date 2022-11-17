@@ -6,17 +6,11 @@ namespace portfolio.Services
     public class ProjectService
     {
 
-        public ProjectService(IWebHostEnvironment webHostEnvironment)
+        public ProjectService()
         {
-            WebHostEnvironment = webHostEnvironment;
         }
 
-        public IWebHostEnvironment WebHostEnvironment { get; }
 
-        private String JsonFileName
-        {
-            get { return Path.Combine(WebHostEnvironment.WebRootPath, "simDB", "db.json"); }
-        }
 
         public IEnumerable<ProjectModel> GetProjects()
         {

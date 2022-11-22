@@ -26,6 +26,9 @@ namespace portfolio.Services
                     PropertyNameCaseInsensitive = true
                 });
 
+
+            invoices = invoices.OrderByDescending(x => x.Id);
+            
             return invoices;
 
         }

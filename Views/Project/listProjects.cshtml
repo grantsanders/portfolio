@@ -12,11 +12,9 @@
 
     
 <body class="projects">
-    <h1 padding="40px">my recent work:</h1>
+    <h1 padding="40px">recent projects:</h1>
 
     <div class="carousel">
-
-
 @foreach (var item in Model) {
             <div class="card text-white bg-dark mb-3" style="width: 25rem;">
         <img class="card-img-top" src="@Html.DisplayFor(modelItem => item.Image)" alt="Card image cap">

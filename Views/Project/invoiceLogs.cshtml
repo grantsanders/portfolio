@@ -40,9 +40,10 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Id)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ImportedSuccessfully)
-            </td>
+
+            @if (item.ImportedSuccessfully == true) { <td>Yes</td> } else { <td>No</td> }
+
+           
             <td>
                 @Html.DisplayFor(modelItem => item.NumberOfInvoices)
             </td>

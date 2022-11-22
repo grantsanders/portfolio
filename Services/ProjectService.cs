@@ -25,7 +25,6 @@ namespace portfolio.Services
                     PropertyNameCaseInsensitive = true
                 });
 
-            Console.WriteLine(projects);
             return projects;
 
         }

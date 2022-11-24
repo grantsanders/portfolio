@@ -13,10 +13,6 @@ namespace portfolio.Controllers
             _projectService = projectService;
             _invoiceRecordService = invoiceRecordService;
         }
-        public IActionResult Index()
-        {
-            return View();
-        }
 
         public IActionResult listProjects()
         {

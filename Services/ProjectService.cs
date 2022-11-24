@@ -10,8 +10,6 @@ namespace portfolio.Services
         {
         }
 
-
-
         public IEnumerable<ProjectModel> GetProjects()
         {
 

@@ -14,17 +14,17 @@ namespace portfolio.Controllers
             _invoiceRecordService = invoiceRecordService;
         }
 
-        public IActionResult listProjects()
+        public async Task<IActionResult> listProjects()
         {
 
-            IEnumerable<ProjectModel> projects = _projectService.GetProjects();
+            IEnumerable<ProjectModel> projects = await _projectService.GetProjects();
 
             return View(projects);
         }
             
-        public IActionResult invoiceLogs() {
+        public async Task<IActionResult> invoiceLogs() {
 
-            IEnumerable<InvoiceRecordModel> invoices = _invoiceRecordService.GetInvoices();
+            IEnumerable<InvoiceRecordModel> invoices = await _invoiceRecordService.GetInvoices();
 
             return View(invoices);
             }

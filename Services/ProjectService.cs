@@ -10,12 +10,14 @@ namespace portfolio.Services
         {
         }
 
-        public IEnumerable<ProjectModel> GetProjects()
+        public async Task<IEnumerable<ProjectModel>> GetProjects()
         {
 
             var client = new HttpClient() { BaseAddress = new Uri("https://granthum-api.azurewebsites.net") };
 
             var json = client.GetAsync("/api/projects").Result.Content.ReadAsStringAsync().Result;
+
+            
 
             IEnumerable<ProjectModel> projects = JsonSerializer.Deserialize<IEnumerable<ProjectModel>>(json,
                 new JsonSerializerOptions

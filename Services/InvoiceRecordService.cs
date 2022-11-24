@@ -13,7 +13,7 @@ namespace portfolio.Services
 
         public IWebHostEnvironment WebHostEnvironment { get; }
 
-        public IEnumerable<InvoiceRecordModel> GetInvoices()
+        public async Task<IEnumerable<InvoiceRecordModel>> GetInvoices()
         {
 
             var client = new HttpClient() { BaseAddress = new Uri("https://granthum-api.azurewebsites.net") };

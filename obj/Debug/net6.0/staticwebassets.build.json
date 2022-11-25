@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Hl1ov1XQC+itctF2mycSuD5bH9ubV9vqvGp0HjcgJqs=",
+  "Hash": "0sSzlSpxTKbdCGQK/u7BUT7Aheaa0OQzpmeX1EL8bnA=",
   "Source": "portfolio",
   "BasePath": "_content/portfolio",
   "Mode": "Default",
@@ -100,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\css\\style.css",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\favicon.ico",

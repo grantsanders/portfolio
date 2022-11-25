@@ -36,14 +36,14 @@ body {
 	position: center;
 	height: calc(100vh - 200px);
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 }
 
 .abouttext {
-	align-items: center;
-	width: 47%;
+	flex-grow: 1;
+	padding-right: 10px;
 }
 
 p {
@@ -51,7 +51,8 @@ p {
 }
 
 .aboutphotos {
-	width: 47%;
+	flex-grow: 1;
+	padding-left: 10px;
 }
 
 .aboutimage {
@@ -106,9 +107,9 @@ h4 {
 }
 
 
-h4.name {
-transform: translate(-2rem);
-}
+	h4.name {
+		transform: translate(-2rem);
+	}
 
 h5.jobtitle {
 	font-size: 64px;
@@ -146,9 +147,17 @@ h5.location {
 	}
 }
 
-@media screen and (max-width: 770px) {
-	.wrapper, aboutpage {
+@media screen and (max-width: 1000px) {
+	.wrapper, .aboutpage {
 		justify-content: center;
+		justify-content: space-around;
+		flex-flow: column wrap;
+	}
+
+	.aboutimage {
+		height: auto;
+		width: auto;
+		max-width: 500px;
 	}
 
 	h4.name {
@@ -169,10 +178,26 @@ h5.location {
 	}
 }
 
+@media screen and (max-width: 650px) {
+	.aboutimage {
+		height: auto;
+		width: auto;
+		max-width: 450px;
+	}
+}
+
 
 @media screen and (max-width: 550px) {
-	.wrapper, aboutpage {
+	.wrapper, .aboutpage {
 		justify-content: center;
+		justify-content: space-evenly;
+		flex-flow: column wrap;
+	}
+
+	.aboutimage {
+		height: auto;
+		width: auto;
+		max-width: 250px;
 	}
 
 	h4.name {
@@ -197,9 +222,15 @@ h5.location {
 	}
 }
 
-@media screen and (max-width: 350px) {
-	.wrapper, aboutpage {
+@media screen and (max-width: 400px) {
+	.wrapper, .aboutpage {
 		justify-content: center;
+	}
+
+	.aboutimage {
+		height: auto;
+		width: auto;
+		max-width: 150px;
 	}
 
 	h4.name {

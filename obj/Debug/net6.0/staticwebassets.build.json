@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mRfURM2CS04OnHZNni5hruRktTXQmyRIZXo8CuQy9gI=",
+  "Hash": "Hl1ov1XQC+itctF2mycSuD5bH9ubV9vqvGp0HjcgJqs=",
   "Source": "portfolio",
   "BasePath": "_content/portfolio",
   "Mode": "Default",
@@ -1239,23 +1239,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\logo1.ico"
-    },
-    {
-      "Identity": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\simDB\\db.json",
-      "SourceId": "portfolio",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\",
-      "BasePath": "_content/portfolio",
-      "RelativePath": "simDB/db.json",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\simDB\\db.json"
     }
   ]
 }

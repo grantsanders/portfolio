@@ -285,10 +285,6 @@
       "PackagePath": "staticwebassets\\logo1.ico"
     },
     {
-      "Id": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\simDB\\db.json",
-      "PackagePath": "staticwebassets\\simDB\\db.json"
-    },
-    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.portfolio.props",
       "PackagePath": "build\\portfolio.props"
     },

@@ -283,7 +283,6 @@ C:\Users\grant\source\repos\portfolio\obj\Debug\net6.0\portfolio.RazorAssemblyIn
 C:\Users\grant\source\repos\portfolio\obj\Debug\net6.0\portfolio.dll
 C:\Users\grant\source\repos\portfolio\obj\Debug\net6.0\refint\portfolio.dll
 C:\Users\grant\source\repos\portfolio\obj\Debug\net6.0\portfolio.pdb
-C:\Users\grant\source\repos\portfolio\bin\Debug\net6.0\wwwroot\simDB\db.json
 C:\Users\grant\source\repos\portfolio\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\grant\source\repos\portfolio\bin\Debug\net6.0\appsettings.json
 C:\Users\grant\source\repos\portfolio\bin\Debug\net6.0\portfolio.staticwebassets.runtime.json

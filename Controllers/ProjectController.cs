@@ -8,7 +8,9 @@ namespace portfolio.Controllers
     {
         private ProjectService _projectService;
         private InvoiceRecordService _invoiceRecordService;
-        public ProjectController(ProjectService projectService, InvoiceRecordService invoiceRecordService )
+
+
+        public ProjectController(ProjectService projectService, InvoiceRecordService invoiceRecordService)
         {
             _projectService = projectService;
             _invoiceRecordService = invoiceRecordService;
@@ -21,12 +23,13 @@ namespace portfolio.Controllers
 
             return View(projects);
         }
-            
-        public async Task<IActionResult> invoiceLogs() {
+
+        public async Task<IActionResult> invoiceLogs()
+        {
 
             IEnumerable<InvoiceRecordModel> invoices = await _invoiceRecordService.GetInvoices();
 
             return View(invoices);
-            }
+        }
     }
 }

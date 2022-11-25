@@ -1,24 +1,24 @@
 html {
-
 }
 
 :root {
 	--color: #c9c9c9;
 }
+
+
+
 body {
-	background: linear-gradient(-45deg, #300208, #1f001d, #170202, #000000); 
+	background: linear-gradient(-45deg, #300208, #1f001d, #170202, #000000);
 	background-size: 400% 400%;
 	-webkit-animation: gradient 15s ease infinite;
 	animation: gradient 12s ease infinite;
 	font-family: 'Noto Sans JP', sans-serif;
-	overflow:hidden;
+	overflow: hidden;
 }
 
 .navbar-brand {
 	filter: brightness(0) saturate(100%) invert(80%) sepia(0%) saturate(35%) hue-rotate(202deg) brightness(96%) contrast(94%);
 }
-
-
 
 .wrapper {
 	height: calc(100vh - 100px);
@@ -28,22 +28,49 @@ body {
 	flex-direction: column;
 }
 
+.aboutheader {
+	font-size: clamp(30px, 60px, 90px);
+}
+
+.aboutpage {
+	position: center;
+	height: calc(100vh - 200px);
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.abouttext {
+	align-items: center;
+	width: 47%;
+}
+
+p {
+	color: var(--color);
+}
+
+.aboutphotos {
+	width: 47%;
+}
+
+.aboutimage {
+	filter: brightness(65%);
+	height: auto;
+	width: auto;
+	max-width: 600px;
+	max-height: 438px;
+}
+
 .carousel {
 	height: calc(100vh - 100px);
-	display:flex;
+	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
 	flex-wrap: wrap;
 }
 
-.footer {
-	position: absolute;
-	bottom: 25px;
-	left: 5px;
-	width: 100%;
-	white-space: nowrap;
-	line-height: 60px;
-}
+
 
 table, thead, tr, th, tbody, td {
 	color: var(--color);
@@ -70,7 +97,7 @@ h4 {
 
 
 h4.name {
-	transform: translate(-2rem);
+transform: translate(-2rem);
 }
 
 h5.jobtitle {
@@ -90,28 +117,27 @@ h5.location {
 	justify-self: flex-end;
 	font-size: clamp(10px, 20px, 30px);
 	text-align: center;
-	
 }
 
 
 
 
-	@keyframes gradient {
-		0% {
-			background-position: 0% 50%;
-		}
-
-		50% {
-			background-position: 100% 50%;
-		}
-
-		100% {
-			background-position: 0% 50%;
-		}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
 	}
 
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 @media screen and (max-width: 770px) {
-	.wrapper {
+	.wrapper, aboutpage {
 		justify-content: center;
 	}
 
@@ -135,31 +161,34 @@ h5.location {
 
 
 @media screen and (max-width: 550px) {
-	.wrapper {
-	justify-content: center;
+	.wrapper, aboutpage {
+		justify-content: center;
 	}
+
 	h4.name {
 		font-size: 40px;
 		align-self: center;
-		transform: translateY(-.5rem); 
+		transform: translateY(-.5rem);
 	}
+
 	h5.jobtitle {
 		font-size: 35px;
 		align-self: center;
-		transform:translate()
-	
+		transform: translate()
 	}
+
 	h5.location {
 		font-size: 30px;
 		align-self: center;
 	}
+
 	.projects {
 		overflow: auto;
 	}
 }
 
 @media screen and (max-width: 350px) {
-	.wrapper {
+	.wrapper, aboutpage {
 		justify-content: center;
 	}
 

@@ -17,8 +17,6 @@ namespace portfolio.Services
 
             var json = client.GetAsync("/api/projects").Result.Content.ReadAsStringAsync().Result;
 
-            
-
             IEnumerable<ProjectModel> projects = JsonSerializer.Deserialize<IEnumerable<ProjectModel>>(json,
                 new JsonSerializerOptions
                 {

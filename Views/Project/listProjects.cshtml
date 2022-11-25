@@ -12,16 +12,16 @@
 
     
 <body class="projects">
-    <h1 padding="40px">recent projects:</h1>
 
-    <div class="carousel">
+    <h1 padding="40px">recent projects</h1>
+        <div class="carousel">
 @foreach (var item in Model) {
             <div class="card text-white bg-dark mb-3" style="width: 25rem;">
         <img class="card-img-top" src="@Html.DisplayFor(modelItem => item.Image)" alt="Card image cap">
         <div class="card-body">
             <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
             <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
-                <a href="@Html.DisplayFor(modelItem => item.Url)" class="btn btn-outline-secondary text-white">Source on GitHub</a>
+                <a href="@Html.DisplayFor(modelItem => item.Url)" class="btn btn-outline-secondary text-white">GitHub</a>
                 @switch (Int32.Parse(item.Id)) {
                         case 0:
                             <a asp-area="" asp-controller="Project" asp-action="invoiceLogs" class="btn btn-outline-secondary text-white">Logs</a>; break;
@@ -30,5 +30,7 @@
         </div>
     </div>
 } </div>
+
+
 
 </body>

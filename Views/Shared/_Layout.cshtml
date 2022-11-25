@@ -13,11 +13,11 @@
 
 </head>
 
-<body >
+<body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/images/logo1.svg" width="28" height="22"/></a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/images/home.svg" width="28" height="20" /></a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -26,16 +26,16 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Project" asp-action="listProjects">Portfolio</a>
+                            <a class="nav-link" asp-area="" asp-controller="Project" asp-action="listProjects">portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Resume">Resumé</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="About">about</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Contact">contact</a>
                         </li>
                     </ul>
-                    
+
                 </div>
             </div>
 
@@ -43,18 +43,15 @@
     </header>
 
     <div class="container">
-        
+
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
-       
+
     </div>
 
-    <footer class="footer text-muted footer-dark">
-        <div class="container">
-            <p>&copy; @DateTime.Now.Year - grant sanders</p>
-        </div>
-    </footer>
+
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

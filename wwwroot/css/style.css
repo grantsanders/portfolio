@@ -8,7 +8,7 @@ html {
 
 
 body {
-	background: linear-gradient(-45deg, #300208, #1f001d, #170202, #000000);
+	background: linear-gradient(-45deg, #240206, #140013, #14040b, #000000);
 	background-size: 400% 400%;
 	-webkit-animation: gradient 15s ease infinite;
 	animation: gradient 12s ease infinite;
@@ -55,7 +55,6 @@ p {
 }
 
 .aboutimage {
-	filter: brightness(65%);
 	height: auto;
 	width: auto;
 	max-width: 600px;
@@ -70,7 +69,18 @@ p {
 	flex-wrap: wrap;
 }
 
+.iconhandler {
+	position: center;
+	height: calc(100vh - 200px);
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+}
 
+.icon {
+	filter: brightness(0) saturate(100%) invert(80%) sepia(0%) saturate(35%) hue-rotate(202deg) brightness(96%) contrast(94%);
+}
 
 table, thead, tr, th, tbody, td {
 	color: var(--color);

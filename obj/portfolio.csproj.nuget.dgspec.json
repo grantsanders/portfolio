@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/grantsanders/Projects/portfolio/portfolio/portfolio.csproj": {}
+    "C:\\Users\\grant\\source\\repos\\portfolio\\portfolio.csproj": {}
   },
   "projects": {
-    "/Users/grantsanders/Projects/portfolio/portfolio/portfolio.csproj": {
+    "C:\\Users\\grant\\source\\repos\\portfolio\\portfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/grantsanders/Projects/portfolio/portfolio/portfolio.csproj",
+        "projectUniqueName": "C:\\Users\\grant\\source\\repos\\portfolio\\portfolio.csproj",
         "projectName": "portfolio",
-        "projectPath": "/Users/grantsanders/Projects/portfolio/portfolio/portfolio.csproj",
-        "packagesPath": "/Users/grantsanders/.nuget/packages/",
-        "outputPath": "/Users/grantsanders/Projects/portfolio/portfolio/obj/",
+        "projectPath": "C:\\Users\\grant\\source\\repos\\portfolio\\portfolio.csproj",
+        "packagesPath": "C:\\Users\\grant\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\grant\\source\\repos\\portfolio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/grantsanders/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\grant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

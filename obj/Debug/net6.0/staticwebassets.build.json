@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NaHCNyPs8Ug54lhG/oiWR57lSJon+s8ADwPcqukbAkI=",
+  "Hash": "mRfURM2CS04OnHZNni5hruRktTXQmyRIZXo8CuQy9gI=",
   "Source": "portfolio",
   "BasePath": "_content/portfolio",
   "Mode": "Default",
@@ -187,6 +187,23 @@
       "OriginalItemSpec": "wwwroot\\images\\instagram.svg"
     },
     {
+      "Identity": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\images\\linkedin.svg",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "images/linkedin.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\linkedin.svg"
+    },
+    {
       "Identity": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\images\\logo1.svg",
       "SourceId": "portfolio",
       "SourceType": "Discovered",
@@ -204,12 +221,12 @@
       "OriginalItemSpec": "wwwroot\\images\\logo1.svg"
     },
     {
-      "Identity": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\images\\namegraphic.svg",
+      "Identity": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\images\\mail.svg",
       "SourceId": "portfolio",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\",
       "BasePath": "_content/portfolio",
-      "RelativePath": "images/namegraphic.svg",
+      "RelativePath": "images/mail.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -218,7 +235,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\namegraphic.svg"
+      "OriginalItemSpec": "wwwroot\\images\\mail.svg"
     },
     {
       "Identity": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\js\\site.js",
@@ -1205,6 +1222,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\logo1.ico",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "logo1.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo1.ico"
     },
     {
       "Identity": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\simDB\\db.json",

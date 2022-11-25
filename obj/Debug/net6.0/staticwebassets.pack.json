@@ -37,12 +37,16 @@
       "PackagePath": "staticwebassets\\images\\instagram.svg"
     },
     {
+      "Id": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\images\\linkedin.svg",
+      "PackagePath": "staticwebassets\\images\\linkedin.svg"
+    },
+    {
       "Id": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\images\\logo1.svg",
       "PackagePath": "staticwebassets\\images\\logo1.svg"
     },
     {
-      "Id": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\images\\namegraphic.svg",
-      "PackagePath": "staticwebassets\\images\\namegraphic.svg"
+      "Id": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\images\\mail.svg",
+      "PackagePath": "staticwebassets\\images\\mail.svg"
     },
     {
       "Id": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\js\\site.js",
@@ -275,6 +279,10 @@
     {
       "Id": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\logo1.ico",
+      "PackagePath": "staticwebassets\\logo1.ico"
     },
     {
       "Id": "C:\\Users\\grant\\source\\repos\\portfolio\\wwwroot\\simDB\\db.json",

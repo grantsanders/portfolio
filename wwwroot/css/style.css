@@ -28,17 +28,21 @@ body {
 	flex-direction: column;
 }
 
+.aboutbody {
+	overflow:auto;
+}
 .aboutheader {
 	font-size: clamp(30px, 60px, 90px);
 }
 
 .aboutpage {
 	position: center;
-	height: calc(100vh - 200px);
+	height: calc(100vh);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: nowrap;
+	overflow: visiblescroll;
 }
 
 .abouttext {
@@ -190,8 +194,9 @@ h5.location {
 @media screen and (max-width: 550px) {
 	.wrapper, .aboutpage {
 		justify-content: center;
-		justify-content: space-evenly;
-		flex-flow: column wrap;
+		justify-content: space-around;
+		flex-flow: column nowrap;
+		overflow: auto
 	}
 
 	.aboutimage {

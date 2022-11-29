@@ -1,17 +1,11 @@
 ﻿<Properties StartupConfiguration="{AE11A1C8-AD3C-4A44-9B7A-DFF7A8497511}|Default">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.portfolio PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/css/style.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Project/listProjects.cshtml">
     <Files>
-      <File FileName="Views/Home/About.cshtml" Line="11" Column="7" />
+      <File FileName="Views/Home/About.cshtml" Line="31" Column="73" />
       <File FileName="Views/Home/Contact.cshtml" Line="11" Column="6" />
       <File FileName="Views/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="wwwroot/css/style.css" Line="28" Column="25" />
+      <File FileName="wwwroot/css/style.css" Line="1" Column="1" />
+      <File FileName="Views/Project/listProjects.cshtml" Line="28" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -21,12 +15,11 @@
               <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
+                <Node name="Project" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="style.css" selected="True" />
-                </Node>
+                <Node name="css" expanded="True" />
                 <Node name="images" expanded="True" />
               </Node>
             </Node>
@@ -35,4 +28,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.portfolio PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

@@ -25,8 +25,7 @@ namespace portfolio.Services
                 {
                     PropertyNameCaseInsensitive = true
                 });
-
-            invoices = invoices.OrderByDescending(x => x.Id);
+            invoices = invoices.OrderByDescending(x => Int32.Parse(x.Id));
 
             return invoices;
 

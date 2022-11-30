@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/grantsanders/Projects/portfolio/portfolio/portfolio.csproj": {}
+    "/Users/grantsanders/Projects/portfolio/portfolio.csproj": {}
   },
   "projects": {
-    "/Users/grantsanders/Projects/portfolio/portfolio/portfolio.csproj": {
+    "/Users/grantsanders/Projects/portfolio/portfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/grantsanders/Projects/portfolio/portfolio/portfolio.csproj",
+        "projectUniqueName": "/Users/grantsanders/Projects/portfolio/portfolio.csproj",
         "projectName": "portfolio",
-        "projectPath": "/Users/grantsanders/Projects/portfolio/portfolio/portfolio.csproj",
+        "projectPath": "/Users/grantsanders/Projects/portfolio/portfolio.csproj",
         "packagesPath": "/Users/grantsanders/.nuget/packages/",
-        "outputPath": "/Users/grantsanders/Projects/portfolio/portfolio/obj/",
+        "outputPath": "/Users/grantsanders/Projects/portfolio/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/grantsanders/.nuget/NuGet/NuGet.Config"

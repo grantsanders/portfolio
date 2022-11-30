@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oe51MzeFl7iCQ3fmwb4CV7OVfeBb32iaXiL16WfTaGsceeLTpSgo4lZOCnooqrRSIGXQk2ynboCsskWH8HTxqQ==",
+  "dgSpecHash": "Q9aYPKPkID2Ao9A0Q0n+97XKtioKcmqKoRVDiE+SHIv8tLbLjHkLBsLt6F0N1W3ULlWuHeyOnXHXLBMLsWHJNQ==",
   "success": true,
-  "projectFilePath": "/Users/grantsanders/Projects/portfolio/portfolio/portfolio.csproj",
+  "projectFilePath": "/Users/grantsanders/Projects/portfolio/portfolio.csproj",
   "expectedPackageFiles": [
     "/Users/grantsanders/.nuget/packages/humanizer.core/2.2.0/humanizer.core.2.2.0.nupkg.sha512",
     "/Users/grantsanders/.nuget/packages/messagepack/2.1.152/messagepack.2.1.152.nupkg.sha512",

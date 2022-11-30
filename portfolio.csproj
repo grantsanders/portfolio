@@ -15,6 +15,7 @@
     <EmbeddedResource Remove="Styles\**" />
     <None Remove="simDB\**" />
     <None Remove="Styles\**" />
+    <Content Remove="wwwroot\wind.svg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,5 +33,10 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="wwwroot\wind.svg">
+      <Link>wwwroot\wind.svg</Link>
+    </Content>
   </ItemGroup>
 </Project>

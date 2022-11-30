@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6APiY6l7pLTEkjCJtBwXc0AAa8nuFqt1EOOqXRoi7EA=",
+  "Hash": "UvGWa1hL3YLcby04b/Rihxb7RkTYK2/NNLPH15D+4NY=",
   "Source": "portfolio",
   "BasePath": "_content/portfolio",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/.DS_Store"
+    },
+    {
+      "Identity": "/Users/grantsanders/Projects/portfolio/wwwroot/bruhh.ico",
+      "SourceId": "portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/grantsanders/Projects/portfolio/wwwroot/",
+      "BasePath": "_content/portfolio",
+      "RelativePath": "bruhh.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/bruhh.ico"
     },
     {
       "Identity": "/Users/grantsanders/Projects/portfolio/wwwroot/css/indexStyle.css",
@@ -1241,12 +1258,12 @@
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
     },
     {
-      "Identity": "/Users/grantsanders/Projects/portfolio/wwwroot/logo1.ico",
+      "Identity": "/Users/grantsanders/Projects/portfolio/wwwroot/zap.svg",
       "SourceId": "portfolio",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/grantsanders/Projects/portfolio/wwwroot/",
       "BasePath": "_content/portfolio",
-      "RelativePath": "logo1.ico",
+      "RelativePath": "zap.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1255,7 +1272,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/logo1.ico"
+      "OriginalItemSpec": "wwwroot/zap.svg"
     }
   ]
 }

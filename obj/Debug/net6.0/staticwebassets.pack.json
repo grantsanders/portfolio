@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets/.DS_Store"
     },
     {
+      "Id": "/Users/grantsanders/Projects/portfolio/wwwroot/bruhh.ico",
+      "PackagePath": "staticwebassets/bruhh.ico"
+    },
+    {
       "Id": "/Users/grantsanders/Projects/portfolio/wwwroot/css/indexStyle.css",
       "PackagePath": "staticwebassets/css/indexStyle.css"
     },
@@ -285,8 +289,8 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
-      "Id": "/Users/grantsanders/Projects/portfolio/wwwroot/logo1.ico",
-      "PackagePath": "staticwebassets/logo1.ico"
+      "Id": "/Users/grantsanders/Projects/portfolio/wwwroot/zap.svg",
+      "PackagePath": "staticwebassets/zap.svg"
     },
     {
       "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.portfolio.props",

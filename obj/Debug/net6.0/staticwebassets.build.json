@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "UvGWa1hL3YLcby04b/Rihxb7RkTYK2/NNLPH15D+4NY=",
+  "Hash": "3nL1038QM+gpSZsGV4Zfr+DhSqWLVQEUWgTLCAHH7II=",
   "Source": "portfolio",
   "BasePath": "_content/portfolio",
   "Mode": "Default",
@@ -68,23 +68,6 @@
       "OriginalItemSpec": "wwwroot/.DS_Store"
     },
     {
-      "Identity": "/Users/grantsanders/Projects/portfolio/wwwroot/bruhh.ico",
-      "SourceId": "portfolio",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/grantsanders/Projects/portfolio/wwwroot/",
-      "BasePath": "_content/portfolio",
-      "RelativePath": "bruhh.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/bruhh.ico"
-    },
-    {
       "Identity": "/Users/grantsanders/Projects/portfolio/wwwroot/css/indexStyle.css",
       "SourceId": "portfolio",
       "SourceType": "Discovered",
@@ -134,23 +117,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/style.css"
-    },
-    {
-      "Identity": "/Users/grantsanders/Projects/portfolio/wwwroot/favicon.ico",
-      "SourceId": "portfolio",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/grantsanders/Projects/portfolio/wwwroot/",
-      "BasePath": "_content/portfolio",
-      "RelativePath": "favicon.ico",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
       "Identity": "/Users/grantsanders/Projects/portfolio/wwwroot/images/.DS_Store",

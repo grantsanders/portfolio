@@ -9,10 +9,6 @@
       "PackagePath": "staticwebassets/.DS_Store"
     },
     {
-      "Id": "/Users/grantsanders/Projects/portfolio/wwwroot/bruhh.ico",
-      "PackagePath": "staticwebassets/bruhh.ico"
-    },
-    {
       "Id": "/Users/grantsanders/Projects/portfolio/wwwroot/css/indexStyle.css",
       "PackagePath": "staticwebassets/css/indexStyle.css"
     },
@@ -23,10 +19,6 @@
     {
       "Id": "/Users/grantsanders/Projects/portfolio/wwwroot/css/style.css",
       "PackagePath": "staticwebassets/css/style.css"
-    },
-    {
-      "Id": "/Users/grantsanders/Projects/portfolio/wwwroot/favicon.ico",
-      "PackagePath": "staticwebassets/favicon.ico"
     },
     {
       "Id": "/Users/grantsanders/Projects/portfolio/wwwroot/images/.DS_Store",

@@ -43,6 +43,10 @@ body {
 	overflow: visiblescroll;
 }
 
+.invoicetable {
+	overflow: auto;
+}
+
 .abouttext {
 	flex-grow: 1;
 	padding-right: 10px;

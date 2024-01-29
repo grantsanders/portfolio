@@ -1,4 +1,4 @@
-﻿        @model IEnumerable<portfolio.Models.ProjectModel>
+﻿@model IEnumerable<portfolio.Models.ProjectModel>
 
 @{
     ViewData["Title"] = "listProjects";
@@ -7,30 +7,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="~/css/style.css" />
+    <link rel="stylesheet" href="~/css/style.css"/>
 </head>
 
-    
+
 <body class="projects">
 
-    <h1 padding="40px">recent projects</h1>
-        <div class="carousel">
-@foreach (var item in Model) {
-            <div class="card text-white bg-dark mb-3" style="width: 25rem;">
-        <img class="card-img-top" src="@Html.DisplayFor(modelItem => item.Image)" alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
-            <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
+<h1 padding="40px">recent projects</h1>
+<div class="carousel">
+    @foreach (var item in Model)
+    {
+        <div class="card text-white bg-dark mb-3" style="width: 25rem;">
+            <img class="card-img-top" src="@Html.DisplayFor(modelItem => item.Image)" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
                 <a href="@Html.DisplayFor(modelItem => item.Url)" class="btn btn-outline-secondary text-white">GitHub</a>
-                @switch (Int32.Parse(item.Id)) {
-                        case 0:
-                            <a asp-area="" asp-controller="Project" asp-action="invoiceLogs" class="btn btn-outline-secondary text-white">Logs</a>; break;
-                        default: break; 
-                }   
+            </div>
         </div>
-    </div>
-} </div>
-
+    }
+</div>
 
 
 </body>

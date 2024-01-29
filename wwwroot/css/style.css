@@ -72,9 +72,17 @@ p {
 	height: calc(100vh - 100px);
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
+	justify-content: space-between; /* or space-around */
+	flex-wrap: nowrap; /* Enable wrapping */
+	padding: 10px; /* Optional: Adds padding inside the carousel */
 }
+
+.carousel .card {
+	margin: 10px; /* Adds spacing between cards */
+	width: calc(25vw - 10px); /* Adjust width to account for margin */
+	
+}
+
 
 .iconhandler {
 	position: center;
@@ -284,6 +292,10 @@ de-in-left {
 	h5.location {
 		font-size: 35px;
 		align-self: center;
+	}
+	
+	.carousel {
+		flex-wrap: wrap;
 	}
 }
 
